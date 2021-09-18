@@ -238,8 +238,8 @@ Student.prototype.scopeArrow = () => console.log(this);
 
 // TODO: Write a COMMENT below to answer the following questions.
 // 1. What is "this" when joe.scope() is invoked?
-//
+// refers to an object,  joy's information or proprety 
 // 2. What is "this" when joe.scopeArrow() is invoked?
-//
+// refers to an object,  window's information
 // 3. Explain why "this" is different when an arrow function is used.
-//
+//Arrow functions do not bind their own 'this', instead, they inherit the one from the parent scope, which is called lexical scoping 
